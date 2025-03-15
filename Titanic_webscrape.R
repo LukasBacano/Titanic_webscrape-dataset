@@ -144,6 +144,17 @@ scrapedTitanic <- scrapedTitanic[, c("Name", "Sex", "Age", "isCHILD", "Born",
                                  "Occupation", "Class", "Cabin_No", "Embarked", "Disembarked", 
                                  "Rescued", "Boat", "Died", "Death_Cause", "Body", "Buried", 
                                  "Ticket_No", "Ticket_price","URL", "Info")]
+
+
+
+
+                   ,:',:`,:'
+                __||_||_||_||___
+           ____[""""""""""""""""]___
+           \ " '''''''''''''''''''' \
+    ~^~^~^~^~^^~^~^~^~^~^~^~^~~^~^~^~^~~^~^
+
+
 #Export
 saveRDS(scrapedTitanic,"DIN_PATH_HER")
 saveRDS(scrapedTitanic,"Documents/DAL-Projects/2.semester/flow2/titanic/StringR_Titanic.RDS") #<- min path
