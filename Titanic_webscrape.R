@@ -3,9 +3,7 @@ library(httr)
 library(stringr)
 library(dplyr)
 # originalt blev vi bedt om at finde navnene på passagererne som er mellem k-o, men vi tog alle vi kunne 
-library(rvest)
-library(httr)
-library(stringr)
+
 
 url <- "https://www.encyclopedia-titanica.org/titanic-passenger-list/"
 headers <- c(
